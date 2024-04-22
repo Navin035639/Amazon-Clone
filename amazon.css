@@ -1,8 +1,45 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1{
-    color: red;
+.hed-nav-1{
+    width: 1280px;
+    height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:#00BCD4;
+    color: white;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 50px;
+    align-content:center;
+    text-align: center;
+}
+
+.box:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+
+.logo{
+    width: 120px;
+    height: 50px;
+}
+
+.hed-nav-2{
+    width: 1280px;
+    height: 40px;
+    background-color: #006064;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    align-items: center;
 }
