@@ -53,6 +53,8 @@
     border-bottom-left-radius: 3px;
     font-size: 16px;
     padding-left: 5px;
+    margin-right: 1px;
+    border: none;
 }
 
 #search{
@@ -60,7 +62,7 @@
     width: 450px;
     font-size: 16px;
     padding-left: 10px;
-    border-radius:none;
+    border: none;
 }
 
 #glass{
@@ -72,6 +74,7 @@
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     font-size: 20px;
+    margin-left: 1px;
 }
 
 .hed-nav-2{
