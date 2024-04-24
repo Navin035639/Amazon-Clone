@@ -1,58 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon clone</title>
-    <link rel="stylesheet" href="amazon.css">
-    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="amazon.css" />
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar code of the clone -->
+
     <header>
-        <div class=hed-nav-1>
-            <div class="box box1">
-            <img src="Images/amazon_logo.png" class="logo" alt="">
-            </div>
-            <div class="box box2">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Deliver to</p>
-                <p>Location</p>
-            </div>
-            <div class="box box3">
-                <select name="" id="all">
-                    <option value="All">All</option>
-                    <option value="Devices">Devices</option>
-                    <option value="Fashion">Fashion</option>
-                    <option value="App & Games">App & Games</option>
-                    <option value="Computer & Accessries">Computer & Accessries</option>
-                    <option value="Clothing">Clothing</option>
-                    <option value="Furniture">Furniture</option>
-                    <option value="Electronics">Electronics</option>
-                    <option value="Best Deals">Best Deals</option>
-                    <option value="Mobiles">Mobiles</option>
-                </select>
-                <input  id="search" type="search" placeholder="Search Amazon.in">
-                <i class="fa-solid fa-magnifying-glass" id="glass"></i>
-            </div>
-            <div class="box box4">sign </div>
-            <div class="box box5">returns & order</div>
-            <div class="box box6">cart</div>
+      <div class="hed-nav-1">
+        <div class="box box1">
+          <img src="Images/amazon_logo.png" class="logo" alt="" />
         </div>
-        <div class="hed-nav-2">
-            <a href="#" class="nav-2">Fress</a>
-            <a href="#" class="nav-2">Amazon miniTV</a>
-            <a href="#" class="nav-2">Sell</a>
-            <a href="#" class="nav-2">Best Seller</a>
-            <a href="#" class="nav-2">Mobiles</a>
-            <a href="#" class="nav-2">Today's Deals</a>
-            <a href="#" class="nav-2">Customer Service</a>
-            <a href="#" class="nav-2">Electronics</a>
-            <a href="#" class="nav-2">New Releases</a>
-            <a href="#" class="nav-2">Home & Kitchen</a>
-            <a href="#" class="nav-2">Fashion</a>
-            <a href="#" class="nav-2">Amazon Pay</a>
+        <div class="box box2">
+          <div>
+            <i class="fa-solid fa-location-dot" id="loc"></i>
+          </div>
+          <div>
+            <p id="del">Deliver to</p>
+            <p id="loc-1">Location</p>
+          </div>
         </div>
+        <div class="box box3">
+          <select name="" id="all">
+            <option value="All">All</option>
+            <option value="Devices">Devices</option>
+            <option value="Fashion">Fashion</option>
+            <option value="App & Games">App & Games</option>
+            <option value="Computer & Accessries">Computer & Accessries</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Best Deals">Best Deals</option>
+            <option value="Mobiles">Mobiles</option>
+          </select>
+          <input id="search" type="search" placeholder="Search Amazon.in" />
+          <i class="fa-solid fa-magnifying-glass" id="glass"></i>
+        </div>
+        <div class="box box4">
+          <div>
+            <i class="fa-solid fa-user" id="user"></i>
+          </div>
+          <div>
+            <p id="sign">Hello, Sign In</p>
+            <p id="account">Account & Lists</p>
+          </div>
+        </div>
+        <div class="box box5">
+          <p id="ret">Returns</p>
+          <p id="ord">& Orders</p>
+        </div>
+        <div class="box box6">
+          <i class="fa-solid fa-cart-shopping" id="cart"></i>
+          <p id="cart-1">Cart</p>
+        </div>
+      </div>
+      <div class="hed-nav-2">
+        <a href="#" class="nav-2">Fress</a>
+        <a href="#" class="nav-2">Amazon miniTV</a>
+        <a href="#" class="nav-2">Sell</a>
+        <a href="#" class="nav-2">Best Seller</a>
+        <a href="#" class="nav-2">Mobiles</a>
+        <a href="#" class="nav-2">Today's Deals</a>
+        <a href="#" class="nav-2">Customer Service</a>
+        <a href="#" class="nav-2">Electronics</a>
+        <a href="#" class="nav-2">New Releases</a>
+        <a href="#" class="nav-2">Home & Kitchen</a>
+        <a href="#" class="nav-2">Fashion</a>
+        <a href="#" class="nav-2">Amazon Pay</a>
+      </div>
     </header>
-</body>
+
+    <!-- main code of the clone -->
+    <main>
+      <div class="main">
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+      </div>
+    </main>
+
+    <!-- footer of the clone -->
+    <footer>
+      <div>
+        <div class="foot-1">
+          <a href="#" id="back">Back to Top</a>
+        </div>
+        <div class="foot-2">
+
+        </div>
+        <div class="foot-3">
+          <img src="Images/amazon_logo.png" class="logo" alt="" />
+        </div>
+        <div class="foot-4">
+          <p>Conditions of Use Privacy Notice Consumer Health Data Privacy Disclosure</p>
+          <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
