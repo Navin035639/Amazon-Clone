@@ -1,2 +1,2 @@
 # Amazon-Clone
-# Developed By Navin Chaurasiya
+Developed By Navin Chaurasiya
